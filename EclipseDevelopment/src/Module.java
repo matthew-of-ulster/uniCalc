@@ -6,9 +6,51 @@ public class Module {
 	private double percent;
 	
 	public Module(String name, int weight, double percent, Assignment[] aArray) {
-		this.name = name;
+		this.setName(name);
+		this.setWeight(weight);
+		this.setPercent(percent);
+		this.setaArray(aArray);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	public int getWeight() {
+		return weight;
+	}
+
+	public void setWeight(int weight) {
 		this.weight = weight;
-		this.percent = percent;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Assignment[] getaArray() {
+		return aArray;
+	}
+
+	public void setaArray(Assignment[] aArray) {
 		this.aArray = aArray;
+	}
+
+	public double getPercent() {
+		return percent;
+	}
+
+	public void setPercent(double percent) {
+		this.percent = percent;
 	}
 }
