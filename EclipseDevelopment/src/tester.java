@@ -6,5 +6,4 @@ public class tester {
 		Assignment mine = new Assignment(5);
 		System.out.println(mine.test);
 	}
-
 }
