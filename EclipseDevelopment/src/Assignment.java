@@ -14,6 +14,15 @@ public class Assignment {
 		this.grade = grade;
 		this.weighting = weighting;	
 	}
+	
+	//ParamterLess Assignment Constructor
+	public Assignment() {
+		assignmentName = null;
+		score = 0;
+		total = 0;
+		grade = 0;
+		weighting = 0;
+	}
 
 	public String getAssignmentName() {
 		return assignmentName;
