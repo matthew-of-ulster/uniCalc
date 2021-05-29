@@ -17,7 +17,7 @@ public class Assignment {
 	
 	//ParamterLess Assignment Constructor
 	public Assignment() {
-		assignmentName = null;
+		assignmentName = "";
 		score = 0;
 		total = 0;
 		grade = 0;

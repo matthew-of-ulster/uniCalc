@@ -16,7 +16,7 @@ public class Module {
 	}
 	
 	public Module(Assignment[] aArray) {
-		name = null;
+		name = "";
 		weight = 0;
 		percent = 0;
 		this.setaArray(aArray);
@@ -46,8 +46,7 @@ public class Module {
 		aArray=temp;
 	}
 	public void delLastAssignment() {
-		Assignment[] temp = Arrays.copyOf(aArray, aArray.length -1);
-		aArray = temp;
+		aArray = Arrays.copyOf(aArray, aArray.length -1);
 	}
 	
 	

@@ -10,6 +10,7 @@ public class tester {
 		a3.setAssignmentName("a3");
 		
 		Assignment[] aArray = {a1,a2};
+		
 		Module m1 = new Module(aArray);
 		System.out.println(m1.listAssignments());
 		m1.addAssignment(a3);
