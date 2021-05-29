@@ -23,6 +23,10 @@ public class Assignment {
 		grade = 0;
 		weighting = 0;
 	}
+	
+	public void workOutPercentage() {
+		grade = ((double)score/(double)total)*100;
+	}
 
 	public String getAssignmentName() {
 		return assignmentName;
